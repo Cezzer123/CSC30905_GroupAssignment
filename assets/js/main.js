@@ -229,7 +229,6 @@ submitBtn.addEventListener('click', ()=>{
 
     let temp = `<div class="out-msg">
     <span class="my-msg">${userInput}</span>
-    <img src="img/AI person.jpg" class="avatar">
     </div>`;
 
     chatArea.insertAdjacentHTML("beforeend", temp);
