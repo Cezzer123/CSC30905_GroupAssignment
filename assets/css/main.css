@@ -1668,13 +1668,64 @@ input[type="text"]{
 /*--------------------------------------------------------------
 # Blog Home Posts List
 --------------------------------------------------------------*/
+#dashboard{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#breadcrumb{
+  padding-left: 20px;
+}
 
+#buttons{
+  color: #e9eff2;
+  background-color: #31547c;
+}
+#buttons1{
+  color: #e9eff2;
+  background-color: #31547c;
+}
+#buttons2{
+  color: #e9eff2;
+  background-color: #31547c;
+}
+#buttons3{
+  color: #e9eff2;
+  background-color: #31547c;
+}
 #games{
   height: 27.5%;
   width: 50%;
 }
+#row1{
+  align-items: center;
+  padding-top: 0px auto;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  
+}
+#row2{
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 0px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  
+}
 
-
+#Chart{
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
 .blog .posts-list article {
   height: 100%;
   border-bottom: 1px solid #d6e2ef;

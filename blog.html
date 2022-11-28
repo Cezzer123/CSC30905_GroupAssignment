@@ -96,9 +96,9 @@
     <main id="main" class="main">
 
       <div class="pagetitle">
-        <h1>Dashboard</h1>
+        <h1 id="dashboard">Dashboard</h1>
         <nav>
-          <ol class="breadcrumb">
+          <ol class="breadcrumb" id="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item active">Dashboard</li>
           </ol> 
@@ -107,7 +107,7 @@
         <section id="blog" class="blog">
           <div class="container" data-aos="fade-up">
             <div class="row">
-              <div class="col">
+              <div class="col"id="row1">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Progress</h5>
@@ -128,12 +128,12 @@
 
                   <h2 class="title">
                   <div class="d-grid gap-2 mt-3">
-                    <button class="btn btn-primary" type="button">Check Progress </button>
+                    <button class="btn btn-primary" type="button" id="buttons">Check Progress </button>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
+              <div class="col" id="row2">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">To-do list </h5>
@@ -156,11 +156,12 @@
                         <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                         Complete Maths Trigonometry 
                       </li>
-                      <button type="button" class="btn btn-secondary">Clear To-Do list</button>
+                      <button type="button" class="btn btn-secondary" id="buttons1">Clear To-Do list</button>
                       
                     </ul><!-- End List Checkboxes and radios -->
               
               </div>
+
   
                   </div>
                 </div>
@@ -168,8 +169,8 @@
             </div>
 
             <!-- Start Usage -->
-            <div class="row mt-3">
-              <div class="col">
+            <div class="row">
+              <div class="col" id = "Chart">
                 <div class="row gy-5 posts-list">
                   <article class="d-flex flex-column">
                     
@@ -210,27 +211,30 @@
                     
                       <h2 class="title">
                       <div class="d-grid gap-2 mt-3">
-                        <button class="btn btn-primary" type="button">Check Usage </button>
+                        <button class="btn btn-primary" type="button" id="buttons2">Check Usage </button>
                       </div>
 
                   </article>
                 </div><!-- End Usage -->
-               
-                   <!-- Card with an image on left -->
-                    <div class="card mb-3" id="games">
-                      <div class="row g-0">
-                        <div class="col-md-4">
-                          <img src="assets/img/blog/c83b0687d5c7eaf105629f2118bbb1dd.jpg" class="img-fluid rounded-start" alt="game controller" height="300" width="300">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title">Bored? </h5>
-                            <p class="card-text">Play some games to improve your skills! </p>
-                            <button type="button" class="btn btn-secondary">Play! </button>
-                          </div>
-                        </div>
+              <div class="col">
+                <!-- Card with an image on left -->
+                <div class="card mb-3" id="games">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/img/blog/c83b0687d5c7eaf105629f2118bbb1dd.jpg" class="img-fluid rounded-start" alt="game controller" height="300" width="300">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bored? </h5>
+                        <p class="card-text">Play some games to improve your skills! </p>
+                        <button type="button" class="btn btn-secondary" id="buttons3">Play! </button>
                       </div>
-                    </div><!-- End Card with an image on left -->
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Card with an image on left -->
+               
+                   
                  
         </section><!-- End Blog Section -->
       </div>
