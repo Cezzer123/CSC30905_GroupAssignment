@@ -1668,6 +1668,13 @@ input[type="text"]{
 /*--------------------------------------------------------------
 # Blog Home Posts List
 --------------------------------------------------------------*/
+
+#games{
+  height: 27.5%;
+  width: 50%;
+}
+
+
 .blog .posts-list article {
   height: 100%;
   border-bottom: 1px solid #d6e2ef;
