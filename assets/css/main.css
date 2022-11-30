@@ -591,7 +591,7 @@ section {
   margin: 0;
   position: absolute;
   top: 50%;
-  left: 34%;
+  left: 36%;
   
   font-family: var(--font-secondary);
   font-weight: 500;
@@ -763,38 +763,87 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services List Section
+# Skills
 --------------------------------------------------------------*/
-.services-list .service-item {
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #384046;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #e8eaec;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #5faee3;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  background: white;
+  padding: 30px 0 40px 0;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
   position: relative;
+  text-align: center;
+  background: #fff;
 }
 
-.services-list .service-item .icon i {
-  font-size: 32px;
-  line-height: 0;
-  margin-right: 20px;
-  color: #1D3354;
+.counts .count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  background: #3498db;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
 }
 
-.services-list .service-item .title {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #124364;
 }
 
-.services-list .service-item .title a {
-  color: var(--color-secondary);
-}
-
-.services-list .service-item .title a:hover {
-  color: #1D3354;
-}
-
-.services-list .service-item .description {
-  line-height: 24px;
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
