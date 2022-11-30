@@ -205,6 +205,7 @@ const emojiBtn = document.querySelector('#emoji-btn');
 const picker = new EmojiButton();
 
 
+
 // Emoji selection  
 window.addEventListener('DOMContentLoaded', () => {
 
