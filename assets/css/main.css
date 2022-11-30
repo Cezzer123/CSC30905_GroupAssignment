@@ -762,8 +762,6 @@ section {
   color: var(--color-primary);
 }
 
-
-
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -801,7 +799,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #124364;
+  color: #000000;
 }
 
 .counts .count-box p {
