@@ -1044,6 +1044,22 @@ section {
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+#formbtn{
+  margin: 0;
+  position: absolute;
+  top: 88%;
+  left: 18%;
+  text-align: left;
+  font-family: var(--font-secondary);
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 6px 15px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+}
+
 .team .team-member {
   overflow: hidden;
   background: #fff;
