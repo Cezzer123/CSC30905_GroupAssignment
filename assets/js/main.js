@@ -204,9 +204,8 @@ const inputElm = document.querySelector('input');
 const emojiBtn = document.querySelector('#emoji-btn');
 const picker = new EmojiButton();
 
-
-
 // Emoji selection  
+
 window.addEventListener('DOMContentLoaded', () => {
 
     picker.on('emoji', emoji => {
@@ -236,3 +235,4 @@ submitBtn.addEventListener('click', ()=>{
     inputElm.value = '';
 
 })
+
